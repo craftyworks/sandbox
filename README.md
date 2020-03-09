@@ -5,7 +5,14 @@
 * https://icon-icons.com : 고퀄 벡터 아이콘이 많다. 
 * [freepic] (https://www.freepik.com/)
 
-> 아바타 아이콘은 [여기](https://icon-icons.com/ko/pack/xmas-giveaway-:)/1736) 가 쵝오!!!
+
+### Pack: xmas giveaway :)
+
+<img src="https://cdn.icon-icons.com/icons2/1736/PNG/128/4043232-avatar-batman-comics-hero_113278.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/1736/PNG/128/4043233-anime-away-face-no-nobody-spirited_113254.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/1736/PNG/128/4043250-avatar-child-girl-kid_113270.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/1736/PNG/128/4043262-avatar-man-muslim_113273.png" width="80"/>
+
+* [icon-cons](https://icon-icons.com/)
+* license : [CC Atribution](https://creativecommons.org/licenses/by/4.0/)
+* https://icon-icons.com/pack/xmas-giveaway-:)/1736
 
 ### Business Man Character
 <img src="https://cdn.pixabay.com/photo/2019/07/10/11/46/business-4328465_960_720.jpg" width="400"/>
