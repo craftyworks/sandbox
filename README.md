@@ -38,6 +38,13 @@
 * license : [CC Atribution](https://creativecommons.org/licenses/by/4.0/)
 * https://icon-icons.com/pack/Heroes-Icons/900
 
+### Flat Smiley Icons
+
+<img src="https://cdn.icon-icons.com/icons2/722/PNG/128/Smiley-14_256_icon-icons.com_62520.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/722/PNG/128/Simley-21_256_icon-icons.com_62540.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/722/PNG/128/Smiley-5_256_icon-icons.com_62529.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/722/PNG/128/Smiley-25_256_icon-icons.com_62509.png" width="80"/>
+
+* [icon-cons](https://icon-icons.com/)
+* license :  Free for commercial use
+* https://icon-icons.com/pack/Flat-Smiley-Icons/722
 
 ### Business Man Character
 <img src="https://cdn.pixabay.com/photo/2019/07/10/11/46/business-4328465_960_720.jpg" width="400"/>
