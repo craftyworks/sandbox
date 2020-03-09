@@ -1,10 +1,3 @@
-## 소스링크
-
-* [소스링크](https://sourcelink.co.kr/) : 무료 아이콘, 이미지, 일러스트등 디자인 리소스 제공 사이트 링크를 제공. 
-* [flaticon](https://www.flaticon.com) : 하루 10개 무료로 아이콘 다운로드 가능
-* https://icon-icons.com : 고퀄 벡터 아이콘이 많다. 
-* [freepic] (https://www.freepik.com/)
-
 
 ### Pack: xmas giveaway :)
 
@@ -62,6 +55,7 @@
 ### Smoking Girl
 
 <img src="https://images.pexels.com/photos/3473525/pexels-photo-3473525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="400"/>
+
 * [Pexels](https://www.pexels.com/)
 * license : [무료사용](https://www.pexels.com/ko-kr/photo-license/)
 * https://www.pexels.com/ko-kr/photo/3473525/
@@ -69,6 +63,7 @@
 ### Smoking Man
 
 <img src="https://images.pexels.com/photos/2580635/pexels-photo-2580635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="400"/>
+
 * [Pexels](https://www.pexels.com/)
 * license : [무료사용](https://www.pexels.com/ko-kr/photo-license/)
 * https://www.pexels.com/ko-kr/photo-license/
