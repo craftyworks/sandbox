@@ -41,6 +41,7 @@
 
 ### Business Man Character
 <img src="https://cdn.pixabay.com/photo/2019/07/10/11/46/business-4328465_960_720.jpg" width="400"/>
+
 * [pixabay](https://pixabay.com)
 * license : [Pixabay License](https://pixabay.com/service/license/) Free for commercial use. No attribution required
 * https://pixabay.com/illustrations/business-man-character-3d-4328465/
@@ -48,6 +49,7 @@
 ### Desk Tablet Notes
 
 <img src="https://cdn.pixabay.com/photo/2017/02/04/15/25/desk-2037545_960_720.png" width="400"/>
+
 * [pixabay](https://pixabay.com)
 * license : [Pixabay License](https://pixabay.com/service/license/) Free for commercial use. No attribution required
 * https://pixabay.com/illustrations/desk-tablet-notes-graphs-analytics-2037545/
