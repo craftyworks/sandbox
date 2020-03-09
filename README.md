@@ -14,6 +14,13 @@
 * license : [CC Atribution](https://creativecommons.org/licenses/by/4.0/)
 * https://icon-icons.com/pack/xmas-giveaway-:)/1736
 
+### Avatar & Smileys
+<img src="https://cdn.icon-icons.com/icons2/2121/PNG/128/boy_child_man_male_people_avatar_icon_131270.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/2121/PNG/128/beard_man_punky_boy_people_avatar_icon_131281.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/2121/PNG/128/woman_people_girl_avatar_icon_131290.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/2121/PNG/128/boy_man_avatar_people_knob_icon_131279.png" width="80"/>
+
+* [icon-cons](https://icon-icons.com/)
+* license : [CC Atribution](https://creativecommons.org/licenses/by/4.0/)
+* https://icon-icons.com/pack/Avatar-&-Smileys/2121
+
 ### Business Man Character
 <img src="https://cdn.pixabay.com/photo/2019/07/10/11/46/business-4328465_960_720.jpg" width="400"/>
 * [pixabay](https://pixabay.com)
