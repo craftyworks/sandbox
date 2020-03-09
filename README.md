@@ -39,6 +39,14 @@
 * license :  Free for commercial use
 * https://icon-icons.com/pack/Flat-Smiley-Icons/722
 
+### Flat Animal Icons
+
+<img src="https://cdn.icon-icons.com/icons2/365/PNG/128/turtle-icon_36958.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/365/PNG/128/donkey-icon_36983.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/365/PNG/128/shark-icon_36965.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/365/PNG/128/puppy-icon_36968.png" width="80"/>
+
+* [icon-icons](https://icon-icons.com)
+* **license** : Free for personal use
+* https://icon-icons.com/pack/Flat-Animal-Icons/365
+
 ### Business Man Character
 <img src="https://cdn.pixabay.com/photo/2019/07/10/11/46/business-4328465_960_720.jpg" width="400"/>
 
