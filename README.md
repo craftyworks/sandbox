@@ -21,6 +21,14 @@
 * license : [CC Atribution](https://creativecommons.org/licenses/by/4.0/)
 * https://icon-icons.com/pack/Avatar-&-Smileys/2121
 
+### Material Avatars 5 
+
+<img src="https://cdn.icon-icons.com/icons2/2129/PNG/128/person_people_avatar_man_boy_glasses_icon_131369.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/2129/PNG/128/black_man_beard_curly_hair_people_avatar_boy_person_icon_131372.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/2129/PNG/128/redhead_beard_glasses_man_people_avatar_person_icon_131370.png" width="80"/><img src="https://cdn.icon-icons.com/icons2/2129/PNG/128/avatar_people_man_boy_glasses_beard_person_icon_131371.png" width="80"/>
+
+* [icon-cons](https://icon-icons.com/)
+* license :  Free for commercial use
+* https://icon-icons.com/pack/Material-Avatars-5/2129
+
 ### Business Man Character
 <img src="https://cdn.pixabay.com/photo/2019/07/10/11/46/business-4328465_960_720.jpg" width="400"/>
 * [pixabay](https://pixabay.com)
