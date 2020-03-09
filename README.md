@@ -66,6 +66,22 @@
 * license : [Pixabay License](https://pixabay.com/service/license/) Free for commercial use. No attribution required
 * https://pixabay.com/illustrations/share-friends-chat-fb-people-1314738/
 
+### Flat Kawaii
+
+<img src="https://image.freepik.com/free-vector/hand-drawn-kawaii-professional-characters-collection_23-2148128618.jpg" width="400"/>
+
+* [freepik](https://www.freepik.com/)
+* license : Free for personal and commercial purpose with attribution.
+* https://www.freepik.com/free-vector/hand-drawn-kawaii-professional-characters-collection_4246236.htm
+
+
+### Businessman Charset
+<img src="https://image.freepik.com/free-vector/nice-businessman-character-set_52683-445.jpg" width="400"/>
+
+* [freepik](https://www.freepik.com/)
+* license : Free for personal and commercial purpose with attribution.
+* https://www.freepik.com/free-vector/nice-businessman-character-set_2960917.htm
+
 ## Attribution
 
 <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a>
