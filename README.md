@@ -118,6 +118,14 @@
 * license : Free for personal and commercial purpose with attribution.
 * https://www.freepik.com/free-vector/nice-businessman-character-set_2960917.htm
 
+### Modern business start up background
+
+<img src="https://image.freepik.com/free-vector/modern-business-start-up-background_1361-1518.jpg" width="400"/>
+
+* [freepik](https://www.freepik.com/)
+* license : Free for personal and commercial purpose with attribution.
+* https://www.freepik.com/free-vector/modern-business-start-up-background_5093630.htm#page=1&query=startup&position=2
+
 ## Attribution
 
 <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a>
