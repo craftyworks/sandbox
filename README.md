@@ -33,3 +33,31 @@
 * [Pexels](https://www.pexels.com/)
 * license : [무료사용](https://www.pexels.com/ko-kr/photo-license/)
 * https://www.pexels.com/ko-kr/photo-license/
+
+### Soft Toys
+
+<img src="https://cdn.pixabay.com/photo/2018/02/16/19/25/soft-toys-3158361_960_720.jpg" width="400"/>
+
+* [pixabay](https://pixabay.com)
+* license : [Pixabay License](https://pixabay.com/service/license/) Free for commercial use. No attribution required
+* https://pixabay.com/photos/soft-toys-stuffed-animals-teddy-bear-3158361/
+
+### Happy young man
+
+<img src="https://image.freepik.com/free-photo/happy-young-man-pointing-his-finger-against-yellow-backdrop_23-2148119753.jpg" width="400"/>
+
+* [freepik](https://www.freepik.com/)
+* license : Free for personal and commercial purpose with attribution.
+* https://www.freepik.com/free-photo/happy-young-man-pointing-his-finger-against-yellow-backdrop_4513044.htm
+
+### Cigarette background with people
+
+<img src="https://image.freepik.com/free-vector/cigarette-background-with-people_23-2147616912.jpg" width="400"/>
+
+* [freepik](https://www.freepik.com/)
+* license : Free for personal and commercial purpose with attribution.
+* https://www.freepik.com/free-vector/cigarette-background-with-people_1101825.htm#page=1&query=smoker&position=15
+
+## Attribution
+
+<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a>
