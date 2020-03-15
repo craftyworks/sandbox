@@ -134,6 +134,38 @@
 * license : Free for personal and commercial purpose with attribution.
 * https://www.freepik.com/free-vector/modern-business-start-up-background_5093630.htm#page=1&query=startup&position=2
 
+### Funny Monsters Collection
+
+<img src="https://image.freepik.com/free-vector/funny-monsters-collection-hand-drawn-style_23-2147793795.jpg" width="400">
+
+* [freepik](https://www.freepik.com/)
+* license : Free for personal and commercial purpose with attribution.
+* https://image.freepik.com/free-vector/funny-monsters-collection-hand-drawn-style_23-2147793795.jpg
+
+### Funny Haloween monsters
+
+<img src="https://image.freepik.com/free-vector/pack-funny-halloween-monsters-flat-design_23-2147693137.jpg" width="400">
+
+* [freepik](https://www.freepik.com/)
+* license : Free for personal and commercial purpose with attribution.
+* https://www.freepik.com/free-vector/pack-funny-halloween-monsters-flat-design_1319237.htm#page=1&query=monster&position=12
+
+### Flat monster collection
+
+<img src="https://image.freepik.com/free-vector/six-different-monster-characters_23-2147778080.jpg" width="400">
+
+* [freepik](https://www.freepik.com/)
+* license : Free for personal and commercial purpose with attribution.
+* https://www.freepik.com/free-vector/six-different-monster-characters_1917607.htm#page=1&query=monster&position=4
+
+### Colorful monsters
+
+<img src="https://image.freepik.com/free-vector/colorful-monster-set_23-2147518718.jpg" width="400">
+
+* [freepik](https://www.freepik.com/)
+* license : Free for personal and commercial purpose with attribution.
+* https://www.freepik.com/free-vector/colorful-monster-set_801909.htm#page=1&query=monster&position=2
+
 ## Attribution
 
 <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a>
