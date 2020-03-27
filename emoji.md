@@ -11,3 +11,9 @@
 ### ✂️ Copy and 📋 Paste Emoji 👍
 
 * https://getemoji.com
+
+## Emoji Commit Message 
+
+* https://gitmoji.carloscuesta.me/
+* [Git commit message emoji](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+* https://github.com/dannyfritz/commit-message-emoji
