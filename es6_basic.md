@@ -1,19 +1,24 @@
 # ES6
 
-## 용어
-  * value
-  * literal
-    * 값을 프로그램 안에서 직접 지정
-  * expression
-  * statement
-  * undefined
-  * identifier
-    * 식별자. 변수와 상수, 함수의 `이름`
-  * primitive
-    * 원시 타입. 
-    * 숫자, 문자열, 불리언, null, undefined, *Symbol*
-    * 위 6가지 원시 타입 외에는 Object type 이다.
-    * 원시 타입은 불변(immutable)
+## 변수, 상수, 타입
+
+### expression vs statement
+
+**expression**
+> 값으로 평가될 수 있는 문. 결과가 값인 문장. 할당에 사용할 수 있다.
+> 변수와 상수, 리터럴은 그 자체로 expression
+  
+### identifier
+
+>식별자. 변수와 상수, 함수의 `이름`
+
+### primitive type
+
+> 원시 타입. 
+
+* 숫자, 문자열, 불리언, null, undefined, *Symbol*
+* 위 6가지 원시 타입 외에는 Object type 이다.
+* 원시 타입은 불변(immutable)
 
 ### 숫자는 double
 
@@ -72,6 +77,64 @@ arr.length == 11
 let currentTemp = 19.5
 const message = `The current temperature is ${currentTemp}`
 ```
+### 연산자 === 를 써라
+> 일치 연산자 `===` 는 두 값이 같은 객체를 가리키거나, 같은 타입이고 값도 같은 경우에만 true 를 반환한다.
+> 항상 일치 연산자 `===`, `!==` 를 써라
+
+```javascript
+const n = 5
+const s = '5'
+
+n === s // false
+n == s // true <- 이러니 쓰지 마라
+```
+
+### 참과 거짓
+
+> javascript 에서 다음은 `거짓`으로 판정된다. 이들 외에는 모두 `참` 이다.
+* undefined
+* null
+* false
+* 0
+* NaN
+* ''(빈문자열)
+
+### OR 표현식을 이용한 할당
+
+> 할당이 목적인 if 문을 OR 표현식을 써서 간결하게 표현이 가능
+
+```javascript
+if (!options) options = {}
+```
+> 위 코드는 아래와 같이 변경이 가능
+```javascript
+options = options || {}
+```
+
+논리 연산자는 피 연산자가 Boolean 이 아닌 경우, 그 결과를 **결정** 한 값을 리턴한다. 이 성질을 이용해서 null 이나 undefined 가 아닌 값을 할당 해야 할 때 OR 연산자를 이용하면 간결한 표현이 가능하다.
+
+```javascript
+
+// paramA, paramB, paramC 순으로 null 이 아닌 경우 할당을 시도. 
+// 모두 null 이면 디폴트 값 {} 을 적용
+const option = paramA || paramB || paramC || {}
+
+```
+
+### typeof 연산자
+
+expression | result 
+---|---
+typeof undefined | 'undefined'
+typeof null | **'object'** 💥
+typeof {} | 'object'
+typeof true | 'boolean'
+typeof 1 | 'number'
+typeof '' | 'string'
+typeof Symbol() | 'symbol'
+typeof function() {} | 'function'
+
+> `typeof` 는 연산자 이므로 괄호 불필요
 
 ## const & let
 
@@ -126,5 +189,30 @@ var cube = (num) => num * num * num
 var cube = num => num * num * num
 ```
 
+## 해체 할당 ( destructuring assignment )
 
+### Object
 
+> 객체를 해체하여 객체의 프로퍼티 이름과 동일한 이름을 가진 변수에 값을 할당
+
+```javascript
+
+const obj = {b: 2, c: 3, d: 4}
+
+const {a, b, c} = obj
+
+a // undefined
+b // 2
+c // 3
+```
+### 배열
+
+> 배열 요소의 순서에 따라 할당
+
+```javascript
+const arr = [1, 2, 3]
+
+let [x, y] = arr
+x // 1
+y // 2
+```
