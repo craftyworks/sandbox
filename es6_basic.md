@@ -278,9 +278,28 @@ const obj = {
   }
 }
 ```
+### Function Expression
+> 함수 표현식(`Function Expressoin`) 은 함수 이름을 생략할 수 있다는 점을 제외하면 함수 선언(`declare`)과 문법적으로 동일합니다. 아래 예제는 결과적으로 함수 선언과 동등합니다. 차이점은 먼저 `함수 표현식` 으로 `익명 함수`를 생성하고 그 함수를 변수에 할당한 점 입니다.
 
+```javascript
+// 함수 표현식
+const f = function() {
+  console.log('test')
+}
+
+// 함수 선언
+function f() {
+  console.log('test')
+}
+```
 
 ### Arrow Function
+
+> ES6 에 추가된 함수 표현식의 단축 표기법. `function` 이라는 단어와 중괄호 숫자를 줄이려고 고안된 단축 문법 입니다. 
+
+* `function` 을 생략해도 됩니다.
+* 매개변수가 단 하나인 경우, 괄호를 생략할 수 있습니다.
+* 함수의 바디가 표현식 하나인 경우는 중괄호와 `return` 을 생략할 수 있습니다.
 
 ```
 // ES5
@@ -307,3 +326,54 @@ var cube = (num) => num * num * num
 
 var cube = num => num * num * num
 ```
+
+> 화살표 함수는 항상 익명 함수이며, 익명 함수를 만들어 다른 곳으로 전달하려 할 때 유용하게 사용됩니다.
+
+## this
+
+> `this`는 객체의 프로퍼티 함수인 `Method` 에서 의미가 있다. 메소드를 호출했을 때, 메소드를 소유하는 객체를 가리킨다. `this` 는 함수 선언 시점이 아니라 어떻게/누가 호출했는지에 따라 다른값을 가질 수 있다.
+
+### 화살표 함수에서의 this
+
+> 화살표 함수에서는 `this` 가 다른 변수와 같이 정적으로(`lexically`) 묶이게 되는 성질이 있습니다. 내부 함수로 선언된 화살표 함수에서는 `this`에 접근이 가능합니다.
+
+### call, apply 그리고 bind
+
+> **`call`** 함수는 `this` 로 사용될 객체를 매개변수로 전달하여 대상 함수를 호출합니다. `call` 함수의 첫번째 매개변수는 `this` 에 할당될 값이고, 그 이후는 호출되는 함수의 파라미터로 순서대로 전달됩니다.
+
+```javascript
+function printName() {
+  console.log(`my name : ${this.name}`)
+}
+
+printName() // 'my name : '
+printName.call({name: 'james'}) // 'my name : james'
+```
+
+> **`apply`** 함수는 매개변수를 `배열`로 전달해야 하는 점을 제외하고는 `call` 함수와 동일합니다. `배열` 형태로 전달된 매개변수는 호출되는 함수에서 구조분해 되어 할당됩니다. ES6 의 spread 연산자를 사용하는 것과 동일한 효과를 기대할 수 있습니다.
+
+```javascript
+const arr = [2, 3, -4, 15, 7]
+Math.min.apply(null, arr) // -4
+Math.max.apply(null, arr) // 15
+
+Math.min(...arr) // -4
+Math.max(...arr) // 15
+```
+
+> **`bind`** 를 사용하면 `this` 를 영구히 고정시키는 새로운 함수를 선언할 수 잇습니다. `bind` 로 오염된 함수는 `call` 이나 `apply` 로 `this` 값을 변경 할 수 없게 됩니다.
+
+```javascript
+const obj = {
+    name: 'james',
+    print() {
+        console.log(this.name)
+    } 
+}
+
+const f = obj.print.bind({name: 'Tom'})
+f() // 'Tome'
+f.call({name: 'Mika'}) // 'Tom'
+```
+
+> `bind` 로 `this` 외에 매개변수도 전달할 경우, 매개변수가 고정된 새로운 함수를 선언하는 효과가 있습니다.
