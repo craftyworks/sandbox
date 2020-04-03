@@ -161,33 +161,6 @@ function print2() {
 ```
 > 위 코드 실행 결과 `10` 이 두 번 찍힌다.
 
-## Arrow Function
-
-```
-// ES5
-var sum = funcion(a, b) {
-  return a + b
-}
-
-// ES6 Arrow Function Style
-const sum = (a, b) => {
-    return a + b
-}
-```
-
-> One line statement 인 경우 `{` 와 `}` 생략 가능하다. 이 경우 `return` 키워드는 생략된다.
-
-```javascript>
-const sum = (a, b) => a + b
-```
-
-> 파라미터가 하나 인 경우는 `(` 와 `)` 생갹 가능하다.
-
-```javascript
-var cube = (num) => num * num * num
-
-var cube = num => num * num * num
-```
 
 ## 해체 할당 ( destructuring assignment )
 
@@ -215,4 +188,122 @@ const arr = [1, 2, 3]
 let [x, y] = arr
 x // 1
 y // 2
+```
+
+### Function Argument
+
+```javascript
+// Object 파라미터 해체
+function getTest( {artifact, module, version} ) {
+  return `${artifact}.${module}.${version}`
+}
+
+const info = {artifact: 'java', module: 'io', version: '1.0'}
+getTest(info) // 'java.io.1.0'
+
+// 배열 파라미터 해체
+function getTest( [artifact, module, version] ) {
+  return `${artifact}.${module}.${version}`
+}
+
+const arr = ['java', 'io', '1.0']
+getTest(arr) // 'java.io.1.0'
+```
+
+## Function
+
+### Basic
+
+> 함수는 함수명만 사용 시 해당 함수에 대한 참조형이 된다. 함수명은 변수나 객체의 프로퍼티, 배열의 요소등에 할당이 가능하다. 할당된 함수에 대한 참조는 괄호를 사용하여 호출이 가능하다.
+
+```javascript
+function test() { console.log('test') }
+
+const f = test
+f() // 'test'
+
+const o = {}
+o.f = test
+o.f() // 'test'
+
+const arr = []
+arr[0] = test
+arr[0]() // 'test'
+```
+
+> `값` 또는 `expression` 뒤에 괄호를 쓰면 javascript 는 그 `값`을 `fuction` 으로 간주하고 함수 호출을 시도한다.
+
+**Overloading 없다**
+> 동일한 함수명을 사용하고 파라미터 리스트에 따라 구분되는 그딴거 javascript 에는 없다.
+
+### 가변 파라미터 ...
+> ES5 에서 사용하던 `arguments` 변수 대신 사용할 수 있는 spread 연산자 `...` 을 파라미터에 정의하여 사용할 수 있다. 가변 파라미터를 배열로 받을 수 있다.
+
+```javascript
+
+function test(infix, ...words) {
+  let sb = ''
+  for(str in words) {
+    sb += str + infix
+  }
+  return sb.slice(0, -1 * infix.length)
+}
+
+test('_', 'a', 'b', 'c') // 'a_b_c'
+```
+
+### default parameter value
+
+> 선언된 파라미터가 전달되지 않으면 `undefined`로 할당된다. ES6 에서는 default 값을 설정할 수 있다.
+
+```javascript
+function test(a, b = 10) {
+  return a * b
+}
+
+test(5) // 50
+```
+### Method
+
+> 객체의 프로퍼티인 함수를 `Method` 라고 부른다. ES6 에서 `Method` 를 간편하게 선언할 수 있는 문법이 추가되었다.
+
+```javascript
+const obj = {
+  name: 'james',
+  log: function() {
+    console.log(`name: ${this.name}`)
+  },
+  log2() {
+    this.log()
+  }
+}
+```
+
+
+### Arrow Function
+
+```
+// ES5
+var sum = funcion(a, b) {
+  return a + b
+}
+
+// ES6 Arrow Function Style
+const sum = (a, b) => {
+    return a + b
+}
+```
+
+> One line statement 인 경우 `{` 와 `}` 생략 가능하다. 이 경우 `return` 키워드는 생략된다.
+
+```javascript>
+const sum = (a, b) => a + b
+```
+
+> 파라미터가 하나 인 경우는 `(` 와 `)` 생갹 가능하다.
+
+```javascript
+var cube = (num) => num * num * num
+
+var cube = num => num * num * num
 ```
