@@ -136,18 +136,19 @@ typeof function() {} | 'function'
 
 > `typeof` 는 연산자 이므로 괄호 불필요
 
-## const & let
+## Scope
+
+### Block Scope
+
+> Block 이란 중괄호로 묶인 영역이며, Block 내에서만 접근이 가능한 Scope. `let` 과 `const` 는 Blcok 내에 선언되고 접근 가능한 Block Scope 를 가집니다.
 
 ### const
 > 재할당이 불가능한 상수 선언. 선언된 오브젝트나 배열의 내부 변경은 OK
 
-가능하면 변수대신 상수를 사용한다. 일단 상수로 선언하고, 변경되어야 하면 변수로 수정한다.
-
-### let
-> Block scope 을 가지는 변수
+가능하면 변수(`let`)대신 상수(`const`)를 사용한다. 일단 상수로 선언하고, 변경되어야 하면 변수로 수정한다.
 
 ### var
-> function scope 를 가지는 변수. 이젠 쓰지 마라.
+> function scope 를 가지는 변수. **이젠 쓰지 마라.**
 
 ```javascript
 var a = 100
@@ -156,11 +157,56 @@ function print2() {
         var a = 10
         console.log(a)
     }
-    console.log(a)
 }
+console.log(a)
 ```
 > 위 코드 실행 결과 `10` 이 두 번 찍힌다.
 
+### var hoisting
+
+> `let` 은 선언된 이후에 사용 가능하지만, `var`는 선언하기 전에도 사용 가능합니다. javascript는 함수나 전역 스코프 전체를 살펴보고 `var`로 선언한 변수를 맨 위로 끌어 올립니다. 선언(`declaration`) 만 끌어올려지고 할당(`assignment`) 는 올라가지 않습니다.
+
+```javascript
+x; //undefined
+var x = 3
+```
+> 위 코드는 아래와 같이 해석됩니다.
+
+```javascript
+var x; //선언
+x;     // undefined
+x =3;
+```
+
+> 동일한 이름의 `var` 를 여러번 선언하는 것도 가능한데 사실은 한 번만 선언되고 나머지 선언은 무시 됩니다.
+
+```javascript
+var x = 3
+if (x === 3) {
+  var x = 2
+}
+```
+> 위 코드는 아래와 같이 해석됩니다.
+```javascript
+var x = 3
+if (x === 3) {
+  x = 2
+}
+```
+
+### use strict
+
+> `var` 를 빼먹은 변수 선언은 global 전역 변수 선언으로 간주됩니다. 스트릭트 모드를 사용하면 이러한 동작을 허용하지 않습니다. 스트릭트 모드는 global scope 에서 전역적으로 설정하거나 함수 단위로 설정이 가능합니다.
+
+> 전역 스코프에서 스트릭트 모드를 사용할 경우, 모든 스크립트가 정상적으로 동작하리라 기대하기 힘듭니다. 따라서 함수 단위로 지정하는 것이 바람직하며, 각 함수마다 선언하기 보다는 익명 함수로 전체 코드를 감싸서 스트릭트 모드로 동작시키는 방식이 유효합니다.
+
+```javascript
+(function() {
+  'use strict'
+
+  //여기서부터 시작되는 코드는 전부 스트릭트 모드 영향하에 실행됨
+})()
+```
 
 ## 해체 할당 ( destructuring assignment )
 
