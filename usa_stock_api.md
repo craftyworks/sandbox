@@ -76,8 +76,85 @@ closest_payment_record_date	"2020-05-07T00:00:00.000+00:00"
 best_dividend_stock_recommanded_date	null
 latest_special_payment_payable_date	null
 latest_special_payment_ex_date	null
+}
 ```
 
 ## investing.com
 
 > 배당락일과 지급일만 수집할 목적이면 이쪽 캘린더가 쉬워 보인다. 기간을 주면 배당 정보만 뽑을 수 있다.
+
+## etf.com
+
+> 2000 여개 펀드 정보를 한방에 내려주는 json API 가 있다.
+
+> https://api.etf.com/private/finder/funddata
+
+컬럼명이 암호스럽긴 한데 찾아낸 매핑은 다음과 같다.
+
+```json
+ "ticker": "SPY",	
+        "fund": "SPDR S&P 500 ETF Trust",	Name
+        "eab5bcd750dc": "1993-01-22T00:00:00.000Z",	Inception Date
+        "e45447c2f507": "Developed Markets",	
+        "e7cbb2ab023d": "State Street Global Advisors",	Issuer
+        "eecb5332c91d": "Equity: U.S.  -  Large Cap",	Segment
+        "assetClass": "Equity",	
+        "region": "North America",	
+        "geography": "U.S.",	
+        "category": "Size and Style",	
+        "focus": "Large Cap",	
+        "niche": "Broad-based",	
+        "ec5a9a10d548": "Committee",	
+        "e1c27c88f074": "Market Cap",	
+        "e8f1eb14319c": "S&P 500",	
+        "e0b96b7a587d": "Unit Investment Trust",	Legal Structure
+        "eb24949c8d6e": 9.45,	Expense Ratio (x/100)%
+        "aum": 253753950000,	AUM
+        "ee92be7592ed": 0.163767,	1Month
+        "ed25a78c6810": -0.13402,	3Month
+        "ebe84f6571f5": -0.115428,	YTD
+        "e4ce45f2c38d": -0.011639,	1Year
+        "eb355c900989": 0.081456,	3Year
+        "e440ef02dc06": 0.081316,	5Year
+        "e0bc5b56c458": 0.110208,	10Year
+        "ea490851d279": "A",	Grade
+        "ed0802c77a4d": 97.968833,	Efficiency
+        "e765c4d93059": 99.468031,	Tradability
+        "e8f684837ff7": 96.146466,	Fit
+        "e0bd71b63cc4": 51670318795.004974,	Average Daily $ Volume
+        "e5c6b14c612c": 22.339035,	P/E
+        "e0936b1e4da7": 3.3963,	P/B
+        "e6b76ba7e6a7": 0.018953,	Dividend Yield (x * 100)%
+        "ec7180c2f248": 5.893,	Quality Score
+        "e59b76f78491": 60.7479,	Score Global Rank
+        "ea0fcdb4db01": 67.4393,	Score Peer Rank
+        "eff8cac7958a": 178.82,	Carbon Intensity
+        "e882560b66d6": "A",	ESG Rating
+        "edca02710910": -9675.097399999999,	1Month
+        "e44d115870cc": -15577.422663,	3Month
+        "ea9752743207": -16337.669737,	YTD
+        "e2fdee6d3a4a": -14921.589819,	1Year
+        "eb3786e7dcc2": -19038.285594,	3Year
+        "e87f910b99f1": "2020-04-24T00:00:00.000Z",	As of Date
+```
+
+개별 종목 조회는 다음 URL 로 리턴되는 HTML 을 분석해서 얻을 수 있다.
+
+* https://etfdb.com/etf/SPY/
+
+## S&P 500
+
+위키피디아가 가장 최신 정보로 보인다. 섹터와 산업 분류를 볼 수 있어 조으다.
+
+* https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+
+섹터까지만 구하면 된다고 보면, 아래 URL 로 리턴되는 csv 파일을 이용하는 것이 더 편하겠다.
+
+* https://datahub.io/core/s-and-p-500-companies/r/constituents.csv
+
+다우존스도 역시 위키피디아가 속편하다.
+
+* https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average
+
+* https://www.cnbc.com/dow-30/
+
