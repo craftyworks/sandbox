@@ -87,3 +87,14 @@
     sudo usermod -a -G dockerroot $USER
     ```
         
+## Gradle
+
+1. Install
+
+```
+wget -c https://services.gradle.org/distributions/gradle-6.3-bin.zip
+
+sudo unzip gradle-6.3-bin.zip -d /opt
+
+/opt/gradle/gradle-6.3/bin
+```
