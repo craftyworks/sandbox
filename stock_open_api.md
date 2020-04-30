@@ -26,6 +26,10 @@
 
 * https://finance.naver.com/item/sise_day.nhn?code=097520&page=1
 
+### Naver API | 시간별 시세
+
+> 종목코드, 시각, 페이지번호로 `체결시각, 체결가, 전일비, 매도, 매수, 거래량, 변동량` 제공. HTML 파싱 필요
+
 ### Kakao Stock | 종목정보
 
 > REST, JSON
