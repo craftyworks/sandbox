@@ -215,3 +215,5 @@ HTML 페이지를 파싱해야 하는데... 사이즈가 역시 만만치 않다
 * https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf
 
 `주식`과 `ETF` 관한 정보를 REST API 로 제공한다. 배당락일, 연배당금, 연배당율 정보도 제공한다. 단 하나의 문제는 `배당 지급금`(이번 배당에 실제로 주는 금액) 만 빠져있다. 이 정보는 dividend.com 에서 구할 수 밖에 없는 것 같다. investing.com 도 있긴 한데(ETF 가 없다.)
+
+> 역시; 세상에 공짜는 없다. DDOS 공격을 막는 것인지는 모르겠으나, 요청이 짧은 시간동안 반복될 경우에 `Access Denied` 오류를 뱉는다.

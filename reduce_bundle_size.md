@@ -34,7 +34,7 @@ module.exports = {
       config.plugins.push(new BundleAnalyzerPlugin({ analyzerMode: 'static', openAnalyzer: false }))
 ```
 
-### lodast -> underscore
+### lodash -> underscore
 
 범인은 `lodash` 와 `d3` 였다. 일단 `lodash` 를 `underscore` 로 교체하자.
 
