@@ -42,7 +42,7 @@ module.exports = {
 
 ```javascript
 // import debounce from 'lodash/fp/debounce'
-import debounce from 'underscore/modules'
+import { debounce } from 'underscore/modules'
 export default {
   install (Vue) {
     Vue.set(Vue.prototype, '_', { debounce })
